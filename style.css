@@ -1,0 +1,128 @@
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#020617,#0f172a,#111827);
+    color:#e2e8f0;
+    min-height:100vh;
+}
+
+header{
+    background:linear-gradient(135deg,#00d4ff,#2563eb,#7c3aed);
+    padding:40px;
+    text-align:center;
+    box-shadow:0 0 40px rgba(0,212,255,.4);
+}
+
+header h1{
+    color:white;
+    font-size:3rem;
+    letter-spacing:3px;
+    text-transform:uppercase;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    padding:18px;
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(15px);
+    border-bottom:1px solid rgba(255,255,255,.1);
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:12px 22px;
+    border-radius:30px;
+    transition:.4s;
+}
+
+nav a:hover,
+nav a.active{
+    background:#00d4ff;
+    color:#000;
+    box-shadow:0 0 20px #00d4ff;
+}
+
+section{
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(255,255,255,.1);
+    border-radius:20px;
+    padding:35px;
+    margin:40px auto;
+    max-width:1100px;
+    box-shadow:0 15px 35px rgba(0,0,0,.4);
+}
+
+article{
+    background:rgba(255,255,255,.06);
+    border:1px solid rgba(255,255,255,.1);
+    border-radius:18px;
+    padding:25px;
+    margin:20px 0;
+    transition:.4s;
+}
+
+article:hover{
+    transform:translateY(-10px) scale(1.02);
+    box-shadow:0 15px 30px rgba(0,212,255,.3);
+}
+
+h2{
+    color:#00d4ff;
+    margin-bottom:20px;
+}
+
+h3{
+    color:white;
+}
+
+button{
+    background:linear-gradient(135deg,#00d4ff,#2563eb);
+    color:white;
+    border:none;
+    padding:14px 28px;
+    border-radius:30px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.4s;
+}
+
+button:hover{
+    transform:translateY(-4px);
+    box-shadow:0 0 25px #00d4ff;
+}
+
+form{
+    background:rgba(255,255,255,.05);
+    border-radius:20px;
+    padding:30px;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:14px;
+    margin-top:8px;
+    margin-bottom:15px;
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:10px;
+    color:white;
+}
+
+footer{
+    background:#020617;
+    padding:40px;
+    text-align:center;
+    border-top:1px solid rgba(255,255,255,.1);
+}
+
+footer a{
+    color:#00d4ff;
+}
+
+footer a:hover{
+    color:white;
+}
